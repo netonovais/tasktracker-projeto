@@ -1,0 +1,6 @@
+services:
+  tasktracker-app:
+    build: .
+    command: python src/main.py
+    stdin_open: true
+    tty: true
